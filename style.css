@@ -1,4 +1,82 @@
 
 
 
-header{border: dotted red 850px;}
+
+
+
+
+* {box-sizing: border-box;
+}
+
+
+nav {
+    height: 50px;
+    background-color: wheat;
+}
+
+.header {
+    margin: 0 auto;
+    width: 850px;
+    height: 400px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    background-color: steelblue;
+}
+
+.header-bg {
+    height: 225px;
+}
+
+
+.profile-heading {
+    height: 175px;
+}
+
+.profile-photo {
+    background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/196563_4657037111_6326_n.jpg?_nc_cat=103&_nc_sid=de6eea&_nc_oc=AQmWTqIMDrLCuPXh3-8dAmF5lCUPbJaKhsdLkHIDaPseP1317vHWxNHear8XMZK50XleGhlo2_0yzqN2-Q72IfkM&_nc_ht=scontent-ort2-1.xx&oh=dbba483ecad71b839b8b28959b3a5935&oe=5EBE149A);
+
+
+background-repeat: no-repeat;
+  background-position: center;
+
+  height: 200px;
+  width: 200px;
+  
+
+  position: relative;
+  top: 175px;
+  left: 10px;
+}
+
+.profile-info {
+    position: relative;
+    top: 75px;
+    left: 225px;
+    height: 90px;
+    width: 60%;
+}
+
+.profile-info h1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.float-right-box {
+    width: 50%;
+    float: right;
+}
+
+.profile-buttons {
+    height: 40px;
+    position: relative;
+    top: -100px;
+    left: 75px;
+}
+
+.profile-buttons button {
+    font-size: 18px;
+    background-color: mediumblue;
+    color: white;
+}
