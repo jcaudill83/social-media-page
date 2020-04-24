@@ -12,6 +12,11 @@
 nav {
     height: 50px;
     background-color: wheat;
+    
+}
+nav button {
+    position: relative;
+    left: 230px;
 }
 
 .header {
@@ -39,19 +44,19 @@ nav {
 
 background-repeat: no-repeat;
   background-position: center;
-
+  
   height: 200px;
   width: 200px;
   
 
   position: relative;
-  top: 175px;
+  top: 240px;
   left: 10px;
 }
 
 .profile-info {
     position: relative;
-    top: 75px;
+    top: 130px;
     left: 225px;
     height: 90px;
     width: 60%;
