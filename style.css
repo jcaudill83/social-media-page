@@ -90,18 +90,18 @@ background-repeat: no-repeat;
 .content-1 {
     position: relative;
     top: 150px;
-    left: 560px;
+    left: 550px;
     width: 20%;
     height: 100px;
     display: flex;
     flex-direction: column;
     background-color: steelblue;
-}
+    }
 
 .content-2 {
     position: relative;
     top: 50px;
-    left: 950px;
+    left: 955px;
     width: 24%;
     height: 100px;
     display: flex;
